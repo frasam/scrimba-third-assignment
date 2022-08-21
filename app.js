@@ -105,6 +105,7 @@ function generatePassword() {
     displayPassword.textContent += num
     displayPassword.textContent = displayPassword.textContent.slice(0, 15)
   }
+
   for (let i = 0; i < characters.length; i++) {
     // let result1 = characters.splice(3)
 
